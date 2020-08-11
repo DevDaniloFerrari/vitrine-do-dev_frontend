@@ -1,9 +1,55 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>home</ion-title>
+  <ion-toolbar end>
+    <ion-title>Vitrine do Dev</ion-title>
+      <ion-button color="success">Entrar</ion-button>
+      <ion-button color="primary">Quero me cadastrar</ion-button>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <app-dev-card (click)="openDevInfo()"></app-dev-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+      <ion-col>
+         <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+      <ion-col>
+         <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+      <ion-col>
+         <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+      <ion-col>
+         <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+      <ion-col>
+         <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+      <ion-col>
+         <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+      <ion-col>
+         <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+      <ion-col>
+         <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+      <ion-col>
+         <app-dev-card (click)="openDevInfo()"></app-dev-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
